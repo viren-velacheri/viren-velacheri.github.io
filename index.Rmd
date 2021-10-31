@@ -1,12 +1,28 @@
 ---
-title: "Lab 3"
-author: "Vtrain"
-date: "9/15/2021"
-output: html_document
+title: ' '
+pagetitle: 'Your Name'
+output: 
+  html_document: 
+    css: "styles.css"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{R echo=F, eval=F}
+#to build this website into the _site directory, run
+rmarkdown::site_generator()
 ```
+ 
+<img src="avatar.jpg" style=width:40% class="img-circle">
 
-## Placeholder for website
+<br>
+
+# Welcome! I am Viren Velacheri
+  
+</br>
+
+##### I am a senior Computer science student here at UT Austin.
+
+##### Outside of programming and school, I love hanging out with friends and family.
+
+##### I also enjoy the outdoors, particularly sports (soccer, football, basketball, and swimming) to name a few  
+
+##### I don't have any data-related projects either, but if I did you could find them [here](/portfolio)!
