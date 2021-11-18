@@ -25,4 +25,4 @@ rmarkdown::site_generator()
 
 ##### I also enjoy the outdoors, particularly sports (soccer, football, basketball, and swimming) to name a few  
 
-##### I don't have any data-related projects either, but if I did you could find them [here](/portfolio)!
+##### I don't have any data-related projects either, but if I did you could find them [here](portfolio.html)!
