@@ -21,6 +21,6 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 
 <br>
 
-- <i class="fa fa-chart-pie"> </i> [Project 2: Description](https://www.google.com)
+- <i class="fa fa-chart-pie"> </i> [Project 2: Description](https://viren-velacheri.github.io/project2/)
 
     - Longer Description
