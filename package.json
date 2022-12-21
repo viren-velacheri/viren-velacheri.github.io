@@ -1,8 +1,8 @@
 {
-  "name": "abhidhir.github.io",
+  "name": "viren-velacheri.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://abhidhir.github.io/",
+  "homepage":"https://viren-velacheri.github.io/",
   "dependencies": {
     "axios": "^0.19.0",
     "gh-pages": "^2.1.1",
