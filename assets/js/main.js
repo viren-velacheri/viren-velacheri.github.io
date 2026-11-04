@@ -5,7 +5,7 @@ document.documentElement.classList.add('js');
 const header = document.querySelector('.site-header');
 const toggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.primary-nav');
-const navLinks = [...nav.querySelectorAll('a[href^="#"]')];
+const navLinks = [...document.querySelectorAll('a[data-section-link]')];
 const mobile = window.matchMedia('(max-width: 700px)');
 
 function setMenu(open) {
@@ -60,5 +60,5 @@ if ('IntersectionObserver' in window) {
       });
     }
   }, { rootMargin: '-15% 0px -60% 0px', threshold: 0 });
-  document.querySelectorAll('main > section[id]').forEach((section) => observer.observe(section));
+  document.querySelectorAll('.article-section[id], #intro').forEach((section) => observer.observe(section));
 }
