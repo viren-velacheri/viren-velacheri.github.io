@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">An agent learns to find the puck</title>
+  <desc id="desc">A top-down ice hockey field with two teams, a puck trajectory and the shaded vision field of an autonomous player.</desc>
+  <rect width="640" height="400" fill="#f0eee6"/>
+  <g stroke="#242621" stroke-width="1">
+    <path d="M48 48H72M48 48V72M592 48H568M592 48V72M48 352H72M48 352V328M592 352H568M592 352V328" opacity=".25"/>
+    <rect x="81" y="83" width="478" height="234" rx="63"/>
+    <path d="M320 83V317" opacity=".3"/>
+    <circle cx="320" cy="200" r="48" opacity=".3"/>
+    <path d="M216 84V316M424 84V316" opacity=".2"/>
+    <path d="M81 180H65V220H81M559 180H575V220H559"/>
+    <path d="M118 177C149 177 149 223 118 223M522 177C491 177 491 223 522 223" opacity=".35"/>
+    <path d="M119 117V283M521 117V283" opacity=".15"/>
+    <circle cx="320" cy="200" r="3" fill="#242621"/>
+    <circle cx="169" cy="145" r="3" opacity=".4"/><circle cx="169" cy="255" r="3" opacity=".4"/>
+    <circle cx="471" cy="145" r="3" opacity=".4"/><circle cx="471" cy="255" r="3" opacity=".4"/>
+  </g>
+  <path d="M231 236L356 129Q390 173 392 235Z" fill="#bd634b" fill-opacity=".09" stroke="#bd634b" stroke-opacity=".25" stroke-width="1"/>
+  <path d="M279 241C315 236 335 191 369 177C406 161 444 177 488 200" stroke="#bd634b" stroke-width="1.2" stroke-dasharray="4 5"/>
+  <path d="M480 193L489 200L478 202" stroke="#bd634b" stroke-width="1.2"/>
+  <g stroke="#242621" stroke-width="1" fill="#f0eee6">
+    <circle cx="231" cy="236" r="13"/><circle cx="191" cy="160" r="13"/>
+    <circle cx="432" cy="135" r="13"/><circle cx="441" cy="250" r="13"/>
+  </g>
+  <g fill="#242621"><circle cx="231" cy="236" r="4"/><circle cx="191" cy="160" r="4"/></g>
+  <g fill="#bd634b"><circle cx="432" cy="135" r="4"/><circle cx="441" cy="250" r="4"/><circle cx="369" cy="177" r="5"/></g>
+  <g font-family="ui-monospace, 'Courier New', monospace" fill="#7c7b72" font-size="9" letter-spacing="2" text-anchor="middle">
+    <text x="320" y="63">2 × 2 AUTONOMOUS PLAY</text>
+    <text x="320" y="361">PERCEIVE → DECIDE → ACT</text>
+  </g>
+</svg>
