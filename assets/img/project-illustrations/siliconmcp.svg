@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">SiliconMCP concept: RTL generation and evaluation</title>
+  <desc id="desc">An original chip-design workflow diagram links a SystemVerilog document to digital logic, simulation waveforms and an evaluation feedback loop. This is a concept illustration, not a product screenshot.</desc>
+  <rect width="640" height="400" fill="#f3f0e7"/>
+  <g stroke="#a8a094" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M93 119H161L180 138V251H93Z"/>
+    <path d="M161 119V138H180"/>
+    <path d="M108 159H161M108 176H144M108 193H159M119 210H159M108 227H137"/>
+    <path d="M194 185H244M239 180L244 185L239 190M394 185H432M427 180L432 185L427 190"/>
+    <path d="M448 139V249H563" opacity=".55"/>
+    <path d="M448 168H563M448 205H563" opacity=".2"/>
+    <path d="M319 266V289H136V265M131 270L136 265L141 270"/>
+  </g>
+  <g stroke="#2f2a26" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="269" y="135" width="100" height="100" rx="2"/>
+    <rect x="281" y="147" width="76" height="76" rx="1"/>
+    <path d="M284 135V122M301 135V122M319 135V122M337 135V122M354 135V122M284 235V248M301 235V248M319 235V248M337 235V248M354 235V248M269 150H256M269 167H256M269 185H256M269 203H256M269 220H256M369 150H382M369 167H382M369 185H382M369 203H382M369 220H382"/>
+    <path d="M292 164H307V177H292ZM331 194H346V207H331ZM292 200H307V213H292Z"/>
+    <path d="M307 170H322V200H331M307 206H319V200H331"/>
+    <path d="M457 168H472V150H487V168H506V150H521V168H541V150H557"/>
+    <path d="M457 205H487V187H517V205H542V187H557" opacity=".55"/>
+  </g>
+  <g stroke="#c77959" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M108 159H134M119 210H147"/>
+    <path d="M457 237H482V219H507V237H531V219H557"/>
+    <path d="M506 266V289H369M374 284L369 289L374 294"/>
+    <circle cx="319" cy="289" r="3" fill="#f3f0e7"/>
+  </g>
+  <g fill="#2f2a26" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="0.4" text-anchor="middle">
+    <text x="136" y="91">RTL</text>
+    <text x="319" y="91">Testbench</text>
+    <text x="506" y="91">Simulation</text>
+    <text x="319" y="327" fill="#a8a094">Generate · simulate · evaluate</text>
+  </g>
+</svg>

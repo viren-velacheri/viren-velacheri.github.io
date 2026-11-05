@@ -110,6 +110,8 @@ h1 { font: 300 clamp(46px, 4.4vw, 61px)/1.12 var(--serif); letter-spacing: -.035
 .project-image { display: block; background: #f0eee7; overflow: hidden; }
 .project-image img { width: 100%; height: auto; aspect-ratio: 28 / 19; object-fit: contain; }
 .project-image:focus-visible { outline-offset: 5px; }
+.project-figure { min-width: 0; }
+.project-figure figcaption { color: var(--muted); font: 9px/1.6 var(--sans); margin-top: 7px; }
 .project-category { color: var(--muted); font: 10px/1.5 var(--sans); margin-bottom: 8px; }
 .project-copy h3 { font: 300 27px/1.15 var(--serif); letter-spacing: -.02em; margin-bottom: 12px; }
 .project-copy > p:not([class]) { font-size: 17px; line-height: 1.5; }
@@ -165,8 +167,6 @@ h1 { font: 300 clamp(46px, 4.4vw, 61px)/1.12 var(--serif); letter-spacing: -.035
 .footer-inner > a:last-child span { margin-left: 14px; }
 
 /* Expanded resume content keeps the same reading-column rhythm. */
-.project-row.project-row-text { grid-template-columns: minmax(0, 1fr); }
-.project-row-text .project-copy { max-width: 650px; }
 .content-disclosure { margin-top: 25px; }
 .content-disclosure > summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-block: 17px; border-top: 1px solid var(--rule); list-style: none; font: 12px/1.6 var(--sans); }
 .content-disclosure > summary::-webkit-details-marker { display: none; }
@@ -178,16 +178,16 @@ h1 { font: 300 clamp(46px, 4.4vw, 61px)/1.12 var(--serif); letter-spacing: -.035
 .research-entry + .research-entry, .community-entry + .community-entry { border-top: 1px solid var(--rule); margin-top: 28px; padding-top: 27px; }
 .research-entry h3, .community-entry h3 { font: 300 27px/1.2 var(--serif); letter-spacing: -.015em; margin-block: 9px 10px; }
 .research-entry > p:not([class]), .community-entry > p:not([class]) { font-size: 18px; line-height: 1.55; margin-top: 14px; }
+.affiliation-heading { display: grid; grid-template-columns: 58px minmax(0, 1fr); gap: 19px; align-items: start; }
+.entry-logo { width: 58px; height: 58px; object-fit: contain; margin-top: 3px; }
 .entry-date { font: 10px/1.6 var(--sans); color: var(--muted); }
 .entry-affiliation { font: 11px/1.65 var(--sans); color: #5d554d; }
 .entry-tags { font: 10px/1.7 var(--sans); color: var(--muted); margin-top: 16px; }
-.entry-mark { width: 42px; height: 42px; display: flex; align-items: center; justify-content: center; font: 300 27px/1 var(--serif); color: var(--accent); }
 .skill-categories { margin: 0 0 30px; }
 .skill-categories > div { display: grid; grid-template-columns: 145px minmax(0, 1fr); gap: 20px; padding-block: 15px; border-top: 1px solid var(--rule); }
 .skill-categories dt { font: 500 11px/1.7 var(--sans); }
 .skill-categories dd { margin: 0; font: 12px/1.8 var(--sans); color: #5d554d; }
 .education-entry + .education-entry { border-top: 1px solid var(--rule); padding-top: 29px; margin-top: 29px; }
-.education-mark { display: flex; align-items: center; justify-content: center; width: 52px; height: 52px; flex-shrink: 0; font: 500 16px/1 var(--sans); letter-spacing: -.06em; color: var(--accent); }
 .honors-list { list-style: none; padding: 4px 0 0; margin: 0; }
 .honors-list li { display: grid; grid-template-columns: 105px minmax(0, 1fr); gap: 20px; padding-block: 12px; font-size: 17px; }
 .honors-list li > span { font: 10px/1.6 var(--sans); color: var(--muted); padding-top: 3px; }
@@ -293,10 +293,11 @@ h1 { font: 300 clamp(46px, 4.4vw, 61px)/1.12 var(--serif); letter-spacing: -.035
   .coursework summary { font-size: 11px; }
   .contact-section { padding-bottom: 58px; margin-bottom: 0; }
   .skill-categories > div { grid-template-columns: 1fr; gap: 6px; }
+  .affiliation-heading { grid-template-columns: 43px minmax(0, 1fr); gap: 15px; }
+  .entry-logo { width: 43px; height: 43px; }
   .research-entry h3, .community-entry h3 { font-size: 26px; }
   .research-entry > p:not([class]), .community-entry > p:not([class]) { font-size: 18px; }
   .honors-list li { grid-template-columns: 77px minmax(0, 1fr); gap: 14px; font-size: 17px; }
-  .education-mark { width: 43px; height: 43px; font-size: 14px; }
   .contact-email { font-size: clamp(21px, 5.4vw, 27px); gap: 14px; margin-top: 20px; }
   .contact-email span { font-size: 15px; }
   .social-links { gap: 17px 24px; font-size: 10px; margin-top: 25px; }

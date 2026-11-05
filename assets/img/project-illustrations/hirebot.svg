@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">From candidate documents to a shortlist</title>
+  <desc id="desc">Concept illustration of candidate resumes and a role description meeting in a matching process, then producing a ranked shortlist.</desc>
+  <rect width="640" height="400" fill="#f3f0e7"/>
+  <g stroke="#2f2a26" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M91 168H151V250H91Z" stroke="#a8a094"/>
+    <path d="M111 150H171V232H111Z" fill="#f3f0e7" stroke="#a8a094"/>
+    <path d="M131 132H191V214H131Z" fill="#f3f0e7"/>
+    <path d="M145 154H177M145 164H174M145 180H177M145 190H166" stroke="#a8a094"/>
+    <path d="M191 173H238L274 209"/>
+    <path d="M267 207L274 209L272 202"/>
+    <path d="M323 160L372 209L323 258L274 209Z" stroke="#c77959"/>
+    <path d="M308 210L318 220L340 198" stroke="#c77959"/>
+    <path d="M323 99V144" stroke="#a8a094"/>
+    <path d="M318 138L323 144L328 138" stroke="#a8a094"/>
+    <path d="M296 57H350V99H296Z"/>
+    <path d="M307 72H339M307 82H330" stroke="#a8a094"/>
+    <path d="M372 209H419"/>
+    <path d="M413 204L419 209L413 214"/>
+    <path d="M439 145H547M439 209H547M439 273H547" stroke="#a8a094"/>
+    <path d="M470 137H535M470 201H523M470 265H513"/>
+    <path d="M470 151H518M470 215H510M470 279H498" stroke="#a8a094"/>
+  </g>
+  <g fill="#c77959"><circle cx="449" cy="137" r="4"/><circle cx="449" cy="201" r="3"/><circle cx="449" cy="265" r="2"/></g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing=".4" fill="#2f2a26" text-anchor="middle">
+    <text x="143" y="283">CANDIDATES</text>
+    <text x="323" y="42">ROLE</text>
+    <text x="323" y="284" fill="#c77959">MATCH</text>
+    <text x="493" y="315">SHORTLIST</text>
+  </g>
+</svg>
