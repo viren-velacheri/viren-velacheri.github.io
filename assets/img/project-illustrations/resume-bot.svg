@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">A resume becomes a conversation</title>
+  <desc id="desc">Concept illustration of a resume document connected to an exchange of questions and answers about a candidate's experience.</desc>
+  <rect width="640" height="400" fill="#f3f0e7"/>
+  <g stroke="#2f2a26" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M111 101H223L247 125V297H111Z"/>
+    <path d="M223 101V125H247"/>
+    <path d="M137 143H192"/>
+    <path d="M137 169H219M137 180H207M137 205H219M137 216H198M137 241H219M137 252H207" stroke="#a8a094"/>
+    <path d="M247 199H325"/>
+    <path d="M319 194L325 199L319 204"/>
+    <path d="M374 119H522V170H401L385 184V170H374Z"/>
+    <path d="M395 138H491M395 150H465" stroke="#a8a094"/>
+    <path d="M352 221H500V272H489V286L473 272H352Z" stroke="#c77959"/>
+    <path d="M374 240H465M374 252H442" stroke="#c77959"/>
+    <path d="M540 145V246H516" stroke="#a8a094"/>
+    <path d="M522 241L516 246L522 251" stroke="#a8a094"/>
+  </g>
+  <circle cx="295" cy="199" r="4" fill="#c77959"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing=".4" fill="#2f2a26">
+    <text x="179" y="326" text-anchor="middle">RESUME</text>
+    <text x="448" y="99" text-anchor="middle">QUESTION</text>
+    <text x="426" y="315" text-anchor="middle" fill="#c77959">ANSWER</text>
+  </g>
+</svg>

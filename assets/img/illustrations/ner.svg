@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Named entity recognition</title>
+  <desc id="desc">A sentence flows through a language model, which identifies Austin as a location.</desc>
+  <rect width="640" height="400" fill="#f0eee6"/>
+  <g stroke="#242621" stroke-width="1">
+    <path d="M48 48H72M48 48V72M592 48H568M592 48V72M48 352H72M48 352V328M592 352H568M592 352V328" opacity=".25"/>
+    <rect x="87" y="97" width="96" height="42" rx="2"/>
+    <rect x="207" y="97" width="96" height="42" rx="2"/>
+    <rect x="327" y="97" width="96" height="42" rx="2"/>
+    <rect x="447" y="97" width="106" height="42" rx="2"/>
+    <path d="M135 139V177M255 139V177M375 139V177M500 139V177" opacity=".45"/>
+    <rect x="87" y="177" width="466" height="56" rx="2"/>
+    <path d="M135 233V271M255 233V271M375 233V271" opacity=".45"/>
+    <path d="M130 266L135 271L140 266M250 266L255 271L260 266M370 266L375 271L380 266" opacity=".45"/>
+  </g>
+  <g stroke="#bd634b" stroke-width="1">
+    <path d="M500 233V271M495 266L500 271L505 266"/>
+    <rect x="447" y="283" width="106" height="32" rx="16"/>
+    <path d="M469 150H531"/>
+  </g>
+  <g font-family="ui-monospace, 'Courier New', monospace" text-anchor="middle" fill="#242621">
+    <text x="135" y="123" font-size="15">A</text>
+    <text x="255" y="123" font-size="15">trip</text>
+    <text x="375" y="123" font-size="15">to</text>
+    <text x="500" y="123" font-size="15">Austin</text>
+    <text x="320" y="210" font-size="12" letter-spacing="3">CONTEXTUAL REPRESENTATION</text>
+    <text x="135" y="303" font-size="13" fill="#7c7b72">O</text>
+    <text x="255" y="303" font-size="13" fill="#7c7b72">O</text>
+    <text x="375" y="303" font-size="13" fill="#7c7b72">O</text>
+    <text x="500" y="303" font-size="11" fill="#bd634b" letter-spacing="1">LOCATION</text>
+    <text x="320" y="361" font-size="9" fill="#7c7b72" letter-spacing="2">LANGUAGE → CONTEXT → ENTITIES</text>
+  </g>
+</svg>
