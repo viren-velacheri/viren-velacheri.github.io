@@ -21,4 +21,4 @@ Open `http://localhost:8000`. There is no build step or package installation.
 - `assets/resume/Viren_Velacheri_Resume.pdf` is linked from navigation and experience.
 - Fonts are served locally from `assets/fonts/`; the included SIL Open Font License files cover DM Sans, Newsreader, and the retained Source Serif 4 files.
 
-Publish these files to the repository’s GitHub Pages source branch as usual. Existing Google Tag Manager, analytics, and search verification settings have been retained. Experience dates and contact details come from the previous portfolio and should be updated here when they change.
+Publish these files to the repository’s GitHub Pages source branch as usual. Existing Google Tag Manager, analytics, and search verification settings have been retained. Experience, research, projects, education, and community details were reconciled with the supplied resumes. The public resume link serves the one-page PDF only. The long resume is not included in the published files. Modeling and acting appear only as past creative work.
